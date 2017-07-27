@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'assets/fonts/fantasque-sans-mono/stylesheet.css';
+body {
+  background: #10194E;
+  color: #fff;
+}
+.navbar {
+  box-shadow: 0 1px 6px 0 #181818;
+}
+.navbar-brand {
+  font-family: "Fantasque Sans Mono";
+}
