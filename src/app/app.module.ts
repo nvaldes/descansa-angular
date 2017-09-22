@@ -1,18 +1,22 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { RequestComponent } from './request/request.component';
+import { ResponseComponent } from './response/response.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    RequestComponent,
+    ResponseComponent
   ],
   imports: [
     BrowserModule,
-    NgbModule.forRoot()
+    HttpModule
   ],
   providers: [],
   bootstrap: [AppComponent]
